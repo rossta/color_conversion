@@ -22,10 +22,10 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_development_dependency("rake")
-  gem.add_development_dependency("rspec", "~> 2.9")
+  gem.add_development_dependency("rspec", "~> 3.13")
 
   # guard
-  gem.add_development_dependency("guard", "~> 1.7")
-  gem.add_development_dependency("guard-rspec", "~> 2.5")
-  gem.add_development_dependency("rb-fsevent", "~> 0.9")
+  gem.add_development_dependency("guard", "~> 2.18")
+  gem.add_development_dependency("guard-rspec", "~> 4.7")
+  gem.add_development_dependency("rb-fsevent", "~> 0.11")
 end
